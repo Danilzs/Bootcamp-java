@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-Java.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio1/exercicio1.iml" filepath="$PROJECT_DIR$/exercicio1/exercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios2/exercicios2.iml" filepath="$PROJECT_DIR$/exercicios2/exercicios2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifElseElseIf/ifElseElseIf.iml" filepath="$PROJECT_DIR$/ifElseElseIf/ifElseElseIf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operadoresAritimeticos/operadoresAritimeticos.iml" filepath="$PROJECT_DIR$/operadoresAritimeticos/operadoresAritimeticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operadoresLogicos/operadoresLogicos.iml" filepath="$PROJECT_DIR$/operadoresLogicos/operadoresLogicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repeticao-for/repeticao-for.iml" filepath="$PROJECT_DIR$/repeticao-for/repeticao-for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchCase/switchCase.iml" filepath="$PROJECT_DIR$/switchCase/switchCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whileDoWhile/whileDoWhile.iml" filepath="$PROJECT_DIR$/whileDoWhile/whileDoWhile.iml" />
+    </modules>
+  </component>
+</project>
