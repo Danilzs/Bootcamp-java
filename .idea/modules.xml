@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-Java.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classes-java/classes-java.iml" filepath="$PROJECT_DIR$/classes-java/classes-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio1/exercicio1.iml" filepath="$PROJECT_DIR$/exercicio1/exercicio1.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicios2/exercicios2.iml" filepath="$PROJECT_DIR$/exercicios2/exercicios2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ifElseElseIf/ifElseElseIf.iml" filepath="$PROJECT_DIR$/ifElseElseIf/ifElseElseIf.iml" />
