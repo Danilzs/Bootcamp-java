@@ -4,6 +4,7 @@ public class Employee {
     private String name;
     private String address;
     private int age;
+    private double salary;
 
     public String getCode() {
         return code;
@@ -35,5 +36,13 @@ public class Employee {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }
