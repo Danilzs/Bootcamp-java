@@ -2,15 +2,44 @@
 public class Main {
     public static void main(String[] args) {
 
-        Employee employee = new Employee();
-        Manager manager = new Manager();
+        printEmployee(new Manager());
+        printEmployee(new Salesman());
+        }
+        public static void printEmployee(Employee employee) {
 
-        manager.setName("Daniel");
-        manager.setLogin("Daniel");
-        manager.setPassword("1234567");
+            System.out.printf("=========%s=========\n", employee.getClass().getCanonicalName());
 
-        System.out.println(manager.getName());
-        System.out.println(manager.getLogin());
-        System.out.println(manager.getPassword());
+            switch (employee) {
+                case Manager manager -> {
+                    manager.setCode("123");
+                    manager.setName("Danilo");
+                    manager.setSalary(5000);
+                    manager.setLogin("danilo");
+                    manager.setPassword("123456");
+                    manager.setCommission(1200);
+
+                    System.out.println(manager.getCode());
+                    System.out.println(manager.getName());
+                    System.out.println(manager.getSalary());
+                    System.out.println(manager.getLogin());
+                    System.out.println(manager.getPassword());
+                    System.out.println(manager.getCommission());
+
+                }
+                case Salesman salesman -> {
+                    salesman.setCode("456");
+                    salesman.setName("Joao");
+                    salesman.setSalary(2800);
+                    salesman.setPercentPerSold(10);
+
+                    System.out.println(salesman.getCode());
+                    System.out.println(salesman.getName());
+                    System.out.println(salesman.getSalary());
+                    System.out.println(salesman.getPercentPerSold());
+                }
+            }
+            System.out.println("========================");
+
+
         }
     }

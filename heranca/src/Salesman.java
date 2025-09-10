@@ -11,7 +11,10 @@ public non-sealed class Salesman extends Employee {
         super(code, name, address, age, salary);
         this.percentPerSold = percentPerSold;
     }
-
+@Override
+    public String getCode(){
+        return "SL" + super.getCode();
+    }
     public Salesman() {
     }
 
